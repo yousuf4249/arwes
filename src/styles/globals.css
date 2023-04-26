@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Electrolize;
+  src: url('../../public/Electrolize.ttf');
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: Electrolize;
+}
+nav .nav-link{
+  color: #637592 !important; 
+  font-size: 14px !important;
+  font-family: Electrolize;
+}
+nav .active{
+  color: #fff !important; 
+  font-size: 14px !important;
+}
