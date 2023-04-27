@@ -63,13 +63,18 @@ export default function Home() {
                         <Paragraph className='text-white mb-0' style={{ fontSize: "14px" }}>From: --</Paragraph>
                         <Paragraph className='text-white mb-0' style={{ fontSize: "14px" }}>
                           <div className=" dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Select Token
                             </a>
-                            <ul className="dropdown-menu text-center  " aria-labelledby="navbarDropdownMenuLink">
-                              <li><a className="dropdown-item" href="#">Action 1</a></li>
-                              <li><a className="dropdown-item" href="#">Action 2 </a></li>
-                              <li><a className="dropdown-item" href="#">Action 3</a></li>
+                            <ul className="dropdown-menu text-center  bg-transparent animate slide2  " aria-labelledby="navbarDropdownMenuLink">
+                            <Frame animate={true}
+                                           level={3}
+                                           corners={4}
+                                           layer='primary'>
+                                    <li><a className="dropdown-item" href="/Pool">Browse</a></li>
+                                    <li><a className="dropdown-item" href="#">Add</a></li>
+                                    <li><a className="dropdown-item" href="#">Import</a></li>
+                                    </Frame>
                             </ul>
                           </div>
 
@@ -91,13 +96,18 @@ export default function Home() {
                         <Paragraph className='text-white mb-0' style={{ fontSize: "14px" }}>From: --</Paragraph>
                         <Paragraph className='text-white mb-0' style={{ fontSize: "14px" }}>
                           <div className=" dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Select Token
                             </a>
-                            <ul className="dropdown-menu text-center  " aria-labelledby="navbarDropdownMenuLink">
-                              <li><a className="dropdown-item" href="#">Action 1</a></li>
-                              <li><a className="dropdown-item" href="#">Action 2 </a></li>
-                              <li><a className="dropdown-item" href="#">Action 3</a></li>
+                            <ul className="dropdown-menu text-center  bg-transparent animate slide2  " aria-labelledby="navbarDropdownMenuLink">
+                            <Frame animate={true}
+                                           level={3}
+                                           corners={4}
+                                           layer='primary'>
+                                    <li><a className="dropdown-item" href="/Pool">Browse</a></li>
+                                    <li><a className="dropdown-item" href="#">Add</a></li>
+                                    <li><a className="dropdown-item" href="#">Import</a></li>
+                                    </Frame>
                             </ul>
                           </div>
 
