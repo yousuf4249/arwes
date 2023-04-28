@@ -21,7 +21,13 @@ const Import = () => {
         // Hydrate Arwes components on client-side
         setHydrated(true);
     }, []);
-    const [audio3] = useState(typeof Audio !== "undefined" && new Audio("/sounds/ask.mp3"));
+    // const [audio3] = useState(typeof Audio !== "undefined" && new Audio("/sounds/ask.mp3"));
+    const [audio3] = useState<HTMLAudioElement | undefined>(
+        typeof Audio !== "undefined" ? new Audio("sounds/ask.mp3") : undefined
+      );
+
+    // let audio3 = new Audio("/sounds/ask.mp3")
+    
     const start = () => {
         audio3?.play()
       }
@@ -167,7 +173,8 @@ const Import = () => {
                     </Arwes>
                 ) : (
                     <div>
-                        <p>Not loadedss</p>
+                                     <p>Loading... Please Wait</p>
+
                     </div>
                 )}
             </ThemeProvider>

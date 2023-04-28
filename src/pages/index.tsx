@@ -188,7 +188,8 @@ export default function Home() {
           </Arwes>
         ) : (
           <div>
-            <p>Not loadedss</p>
+                        <p>Loading... Please Wait</p>
+
           </div>
         )}
       </ThemeProvider>
