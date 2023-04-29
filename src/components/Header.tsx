@@ -60,11 +60,9 @@ const Header = (props: { activeClass: string; }) => {
                      
                             </li>
                             <li className="nav-item">
-                            <Button animate={true}  level={3}
-                                           corners={4}
-                                           layer='primary'>
-                                <a className="nav-link p-0 m-0" href="#">Stake</a>
-                                </Button>
+                            <Button animate={true}  level={3} corners={4} layer='primary'>
+                                <a className="nav-link p-0 m-0" href="/Stake">Stake</a>
+                            </Button>
                             </li>
                             <li className="nav-item dropdown">
                             <Button  className="" role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="navbarDropdownMenuLink2" href="#" >
@@ -74,14 +72,10 @@ const Header = (props: { activeClass: string; }) => {
                                 <span className='dropdown-toggle nav-link p-0 m-0'>Farm</span>
                                 </Button>
                                 <ul className="dropdown-menu bg-transparent animate slideIn" aria-labelledby="navbarDropdownMenuLink2">
-                                <Frame animate={true}
-                                           level={3}
-                                           corners={4}
-                                           layer='primary'>
-                                    <li><a className="dropdown-item" href="/Pool">Your Farms</a></li>
-                                    <li><a className="dropdown-item" href="#">All Farms</a></li>
-                             
-                                    </Frame>
+                                <Frame animate={true} level={3} corners={4} layer='primary'>
+                                    <li><a className="dropdown-item" href="/YourFarms">Your Farms</a></li>
+                                    <li><a className="dropdown-item" href="/Farms">All Farms</a></li>
+                                </Frame>
                                 </ul>
                                 
                             </li>
